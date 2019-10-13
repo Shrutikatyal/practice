@@ -17,7 +17,7 @@ class Book{
         virtual void display()=0;
 
 };
-// Write your MyBook class here
+
     class MyBook : public Book{
         public:int price;
     //   Class Constructor
@@ -32,10 +32,7 @@ class Book{
               price=p;
     }
     
-    //   Function Name: display
-    //   Print the title, author, and price in the specified format.
-    //
-    // Write your method here
+    
     
         void display()
         {
